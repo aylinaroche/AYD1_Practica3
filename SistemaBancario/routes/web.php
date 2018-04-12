@@ -31,3 +31,6 @@ Route::get('Debito', 'DebitoController@debito')->name('Debito');
 Route::post('transferir','TransferenciaController@transferir')->name('transferir');
 Route::post('acreditar','CreditoController@acreditar')->name('acreditar');
 Route::post('debitar','DebitoController@debitar')->name('debitar');
+//
+Route::get('/crearCuenta','CuentaController@store')->name('crearCuenta');
+Route::get('/crearTransferencia','TransferenciaController@create')->name('crearTransferencia');

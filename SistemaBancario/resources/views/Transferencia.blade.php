@@ -70,6 +70,7 @@
         </h2>
         <hr class="divider">
         <form method="POST" action="{{ route('transferir') }}">
+        {{ csrf_field() }}
             <div class="row">
             <div class="form-group col-lg-6">
                 <label class="text-heading">Numero de Cuenta</label>
