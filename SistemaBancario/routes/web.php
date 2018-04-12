@@ -19,7 +19,7 @@ Route::get('/', 'Auth\LoginController@showLoginForm'); //Para que solo el invita
 
 Route::post('login','Auth\LoginController@login')->name('login');
 Route::get('Logout','Auth\LoginController@logout')->name('Logout');
-Route::get('Registrarse','Auth\RegisterController@showRegisterForm')->name('Registrarse');
+Route::get('/Registrarse','Auth\RegisterController@showRegisterForm')->name('Registrarse');
 Route::post('Register','Auth\RegisterController@register')->name('Register');
 
 //

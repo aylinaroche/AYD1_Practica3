@@ -32,7 +32,7 @@
                                 <input class="form-control" type ="password" name="password" placeholder="Ingresa tu contraseña">
                                 {!! $errors->first('password', '<span class="help-block">:message</span>') !!}
                             </div>
-                            <button class = "btn btn-primary">Acceder</button>
+                            <button class = "btn btn-primary" name="acceder">Acceder</button>
                             </br>
                             <div class="form-group">
                                 <label for="cuenta">¿No tiene una cuenta?</label>

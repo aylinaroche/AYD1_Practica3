@@ -39,7 +39,7 @@
                                 <input class="form-control" type ="password" name="password" placeholder="Ingresa tu contraseña">
                                 {!! $errors->first('password', '<span class="help-block">:message</span>') !!}
                             </div>
-                            <button class = "btn btn-primary">Registrar</button>
+                            <button class = "btn btn-primary" name="registrar">Registrar</button>
                         </form>
                     </div>
                 </div>
