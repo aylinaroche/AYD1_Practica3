@@ -64,8 +64,10 @@
 
 <div class="bg-faded p-4 my-4">
     <div class="bg-faded p-4 my-4">
+        
         <hr class="divider">
         <h2 class="text-center text-lg text-uppercase my-0">
+            
             <strong>Acreditar</strong>
         </h2>
         <hr class="divider">
@@ -74,18 +76,18 @@
             <div class="row">
             <div class="form-group col-lg-6">
                 <label class="text-heading">Numero de Cuenta</label>
-                <input name="cuenta" class="form-control">
+                <input name="cuenta"  type="text" class="form-control">
             </div>
             <div class="form-group col-lg-6">
                 <label class="text-heading">Monto a acreditar</label>
-                <input name="monto" class="form-control">
+                <input name="monto" type ="text"  class="form-control">
             </div>
             <div class="form-group col-lg-12">
                 <label class="text-heading">Descripcion del credito</label>
-                <textarea name="descripcion" class="form-control" cols="40"></textarea>
+                <input name="descripcion"  type ="text" class="form-control" cols="40"></input>
             </div>
             <div class="form-group col-lg-8">
-                <button type="submit" class="btn btn-secondary">Acreditar</button>
+                <button type="submit" class="btn btn-secondary" name="acredito">Acreditar</button>
             </div>
             </div>
         </form>

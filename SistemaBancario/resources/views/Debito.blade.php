@@ -85,7 +85,7 @@
                 <textarea name="descripcion" class="form-control"></textarea>
             </div>
             <div class="form-group col-lg-8">
-                <button type="submit" class="btn btn-secondary">Debitar</button>
+                <button type="submit" class="btn btn-secondary" name="debito">Debitar</button>
             </div>
             </div>
         </form>

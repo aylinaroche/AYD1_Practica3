@@ -25,8 +25,8 @@ Route::post('Register','Auth\RegisterController@register')->name('Register');
 //
 Route::get('Inicio', 'InicioController@inicio')->name('Inicio');
 Route::get('Transferencia', 'TransferenciaController@transferencia')->name('Transferencia');
-Route::get('Credito', 'CreditoController@credito')->name('Credito');
-Route::get('Debito', 'DebitoController@debito')->name('Debito');
+Route::get('/Credito', 'CreditoController@credito')->name('Credito');
+Route::get('/Debito', 'DebitoController@debito')->name('Debito');
 //
 Route::post('transferir','TransferenciaController@transferir')->name('transferir');
 Route::post('acreditar','CreditoController@acreditar')->name('acreditar');
